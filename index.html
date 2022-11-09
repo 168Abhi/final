@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="CodeHim">
+  <title>Contact Form with Validation Example</title>
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="st.css">
+  <link rel="stylesheet" href="de.css">
+
+</head>
+
+<body>
+
+
+
+  <main>
+    <div class="form-container" style="background-color:#fff; padding-left: 25px;">
+      <h1>Contact Form</h1>
+      <form action=save.php method="post">
+        <label for="name">* Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name">
+        <span class="errors"></span><br>
+
+        <label for="email">* Email</label>
+        <input type="text" placeholder="Email address" id="email" name="email">
+        <span class="errors"></span><br>
+
+        <label for="phone">* Phone</label>
+        <input type="text" placeholder="Phone number" id="phone" name="phone">
+        <span class="errors"></span><br>
+
+        <label for="subject">* Message</label>
+        <textarea placeholder="Your message" cols="132" rows="5" name="message" id="subject"></textarea>
+        <span class="errors"></span><br>
+
+        <button type="Submit" id="submit">Submit</button>
+      </form>
+    </div>
+  </main>
+
+
+  <!-- Script JS -->
+  <script src="./js/script.js">
+
+
+
+
+
+
+
+  </script>
+
+</body>
+
+</html>
